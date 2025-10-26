@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-06-03T00:57:07.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0 (Edition Yx GX)" etag="5icF9aVG2wHeANkJjjK0" version="24.4.13" type="device">
+  <diagram name="Страница — 1" id="4Kwpe7AzpnfSjs2NtMjK">
+    <mxGraphModel dx="1379" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-1" target="kXMGKhbR1HaV2ZwG_Az3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-1" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="384" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-2" value="Ввод пользователем&lt;div&gt;&amp;nbsp;пути к файлу&amp;nbsp;&lt;/div&gt;&lt;div&gt;и выбор алгоритма&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="309" y="100" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-4" target="kXMGKhbR1HaV2ZwG_Az3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-4" value="SHA-1?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-2" target="kXMGKhbR1HaV2ZwG_Az3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-7" target="kXMGKhbR1HaV2ZwG_Az3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-7" value="Хеширование файла алгоритмом SHA-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-9" target="kXMGKhbR1HaV2ZwG_Az3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-9" value="Хеширование файла алгоритмом SHA-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="464" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.564;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-4" target="kXMGKhbR1HaV2ZwG_Az3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-12" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="198" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-13" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="198" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-14" value="Вывод полученного хеша" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-17" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="384" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kXMGKhbR1HaV2ZwG_Az3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kXMGKhbR1HaV2ZwG_Az3-14" target="kXMGKhbR1HaV2ZwG_Az3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
